@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+.form {
+  margin: 0 auto; 
+}
+.navbar, .footer{
+  padding: 10px;
+  background-color: #242222;
+  color: white;  
+  font-weight: bolder;  
+}
+.footer p{
+  font-size: 11px;
+}
+.git_icon{
+  margin-bottom:-10px ;
+  width:30px;
+  height: 40px;
+  margin-right: 5px;
+
+}
+.form{
+  display: flex;  
+  justify-content: center;
+  padding: 10px 0px;
+}
+.user_info{
+  display: flex;  
+  justify-content: center;      
+  padding-bottom: 20px;
+  font-size: 15px; 
+}
+.repos{
+  border-top: 1px solid rgb(92, 89, 89);
+  border-bottom: 1px solid rgb(92, 89, 89); 
+}
+.repos a{
+  color:black; 
+}
+.repos a:hover{
+  color:rgb(17, 131, 231);
+}
+.repos a:active{
+  color:rgb(27, 80, 27);
+}
+.repos > * {
+  margin-bottom: 10px;
+}
